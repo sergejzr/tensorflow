@@ -126,7 +126,7 @@ modelname="word2vec.mod"
 
 if os.path.isfile(modelname):
     
-    with open('word2vec', 'rb') as f:
+    with open('modelname', 'rb') as f:
         # The protocol version used is detected automatically, so we do not
         # have to specify it.
         final_embeddings = pickle.load(f)
